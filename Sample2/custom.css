@@ -1,24 +1,33 @@
 @import url("bootstrap.min.css");
 
-body {
-	background-color: #DDD;
-}
-
 h2 {
 	font-family: 'Open Sans Condensed', sans-serif;
-	color: #000;
-	display: inline-block;
-	text-shadow: 0px 0px 5px #FFF;
+	text-align: center;
 }
 
-span {
+.subtitle {
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: x-large;
-	margin-left: 10px;
+	text-align: center;
+	display: block;
+	font-size: larger
+}
+
+.synopsis {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 1.7em;
+	line-height: 1.15em;
+	font-weight: 400;
+	margin-bottom: 20px;
+	border-bottom: 2px double #888;
+	text-align: center;
 }
 
 .article-head {
 	position: relative;
+	background-color: #6A88A4;
+	box-shadow: 0px 0px 10px #AAA;
+	color: #FFF;
+	text-shadow: 0px 0px 7px #000;
 }
 
 img {
@@ -27,30 +36,63 @@ img {
 }
 
 .blue {
-	border-bottom: 1px solid #03406A;
+	border-bottom: 1px solid #2B5E88;
 }
 
 .publish-date {
-	text-align: left;
-	margin: 0;
+	text-align: right;
+	font-style: italic;
+	margin-right: 5px;
 }
 
 hr {
 	margin: 2px 0 20px 0;
 }
 
-aside {
-	background-color: #65A5D1;
-	box-shadow: -3px 3px 6px #03406A;
+.article-body {
+	background-color: #FFF;
+	box-shadow: 0px 0px 10px #AAA;
+	padding: 8px;
 	font-family: 'Dosis', sans-serif;
-	padding: 5px;
+	margin-bottom: 40px;
 }
 
-.article-body {
-	color: #000;
-	background-color: #FF4500;
-	box-shadow: -3px 3px 4px #A62D00;
-	padding: 15px;
-	margin-bottom: 40px;
-	font-family: 'Sintony', sans-serif;
+.article-body p:first-child:first-letter {
+	font-size: 1.5em;
+	float: left;
+	margin: 2px 2px 0 0;
+	line-height: 0.8;
+	text-shadow: 3px 3px 0 #DDD;
+}
+
+.excerpt {
+	width: 150px;
+	color: #EEE;
+	background-color: #26527C;
+	border: 1px solid #CCC;
+	padding: 7px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: italic;
+	display: inline-block;
+	position: relative;
+	float: left;
+	top: 0px;
+	left: -20px;
+}
+
+p + p {
+	text-indent: 2em;
+}
+
+.related-content h4 {
+	text-align: center;
+	margin-top: 0px; 
+}
+
+.related-content p {
+	color: #01182F;
+	background-color: #EEE;
+	box-shadow: 0px 0px 10px #999;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding: 10px;
 }

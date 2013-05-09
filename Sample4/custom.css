@@ -38,8 +38,7 @@ aside {
 }
 
 .article-body {
-	background-color: #BAD3E8;
-	box-shadow: 3px 3px 0px #25547B;
+	box-shadow: 3px 3px 0px #DDD;
 	padding: 8px;
 	font-family: 'Dosis', sans-serif;
 	margin-bottom: 40px;
