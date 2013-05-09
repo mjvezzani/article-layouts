@@ -1,0 +1,99 @@
+@import url("bootstrap.min.css");
+
+h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+}
+
+.subtitle {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	display: block;
+	font-size: larger
+}
+
+.synopsis {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 1.7em;
+	line-height: 1.15em;
+	font-weight: 400;
+	margin-bottom: 20px;
+	border-bottom: 2px double #888
+}
+
+.article-head {
+	position: relative;
+	background-color: #555;
+	color: #FFF;
+	text-shadow: 0px 0px 7px #000;
+}
+
+img {
+	margin: 0 auto;
+	display: block;
+}
+
+.blue {
+	border-bottom: 1px solid #2B5E88;
+}
+
+.publish-date {
+	text-align: right;
+	font-style: italic;
+	margin-right: 5px;
+}
+
+hr {
+	margin: 2px 0 20px 0;
+}
+
+aside {
+	background-color: #FFC173;
+	box-shadow: 3px 3px 0px #BF8030;
+	padding: 5px;
+}
+
+.article-body {
+	background-color: #A2CBE8;
+	box-shadow: 3px 3px 0px #3E94D1;
+	padding: 8px;
+	font-family: 'Dosis', sans-serif;
+	margin-bottom: 40px;
+}
+
+.article-body p:first-child:first-letter {
+	font-size: 35px;
+	float: left;
+	margin: 7px 10px 0 0;
+	line-height: 0.8;
+	text-shadow: 4px 4px 0 #5EB4F1;
+}
+
+.excerpt {
+	width: 150px;
+	background-color: #DDD;
+	border: 1px solid #333;
+	padding: 7px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: italic;
+	display: inline-block;
+	position: relative;
+	float: left;
+	top: 0px;
+	left: -20px;
+}
+
+p + p {
+	text-indent: 2em;
+}
+
+.related-content h4 {
+	margin-left: 25px;
+}
+
+.related-content p {
+	background-color: #CCC;
+	box-shadow: 3px 3px 0px #999;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding: 10px;
+}

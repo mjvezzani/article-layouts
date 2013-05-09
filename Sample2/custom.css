@@ -1,0 +1,56 @@
+@import url("bootstrap.min.css");
+
+body {
+	background-color: #DDD;
+}
+
+h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #000;
+	display: inline-block;
+	text-shadow: 0px 0px 5px #FFF;
+}
+
+span {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: x-large;
+	margin-left: 10px;
+}
+
+.article-head {
+	position: relative;
+}
+
+img {
+	margin: 0 auto;
+	display: block;
+}
+
+.blue {
+	border-bottom: 1px solid #03406A;
+}
+
+.publish-date {
+	text-align: left;
+	margin: 0;
+}
+
+hr {
+	margin: 2px 0 20px 0;
+}
+
+aside {
+	background-color: #65A5D1;
+	box-shadow: -3px 3px 6px #03406A;
+	font-family: 'Dosis', sans-serif;
+	padding: 5px;
+}
+
+.article-body {
+	color: #000;
+	background-color: #FF4500;
+	box-shadow: -3px 3px 4px #A62D00;
+	padding: 15px;
+	margin-bottom: 40px;
+	font-family: 'Sintony', sans-serif;
+}
